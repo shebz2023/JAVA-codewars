@@ -79,13 +79,11 @@ class StudentGradeManager {
  class GradeManager {
     public static void main(String args[]) {
         StudentGradeManager manager = new StudentGradeManager();
-        
-        // Test with this data:
-        manager.addStudent("Alice", "A");
+                manager.addStudent("Alice", "A");
         manager.addStudent("Bob", "B");
         manager.addStudent("Charlie", "A");
         manager.addStudent("David", "C");
-        manager.addStudent("Alice", "B"); // Should update existing
+        manager.addStudent("Alice", "B"); 
         
         manager.displayAllStudents();
         manager.displayStudentsSorted();
